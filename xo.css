@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background:linear-gradient(rgb(255, 255, 255),rgb(250, 250, 0),rgb(37, 20, 20));
+    display: flex;
+    align-items: center;
+    height: 100vh;
+   
+}
+.game{
+    text-align: center;
+    width: 270px;
+    font-family: system-ui,sans-serif;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 500;
+  
+    box-shadow: rgb(68, 0, 255) 3px 3px 8px;
+
+}
+.title{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background-color: rgba(192, 27, 43, 0.779);
+}
+span{
+    color: blue;
+}
+.square{
+    background-color:rgba(192, 27, 43, 0.779) ;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 3px;
+    font-size: 50px;
+    border: solid 2px rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0) 3px 3px 8px;
+    color: white;
+    
+}
+.square:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.score{
+    background-color: rgb(178, 50, 165);
+    
+}
+#winx{
+    display: none;
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
+#wino{
+    display: none;
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
